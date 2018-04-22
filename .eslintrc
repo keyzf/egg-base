@@ -1,0 +1,15 @@
+{
+  "extends": "standard",
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "space-before-function-paren": ["error", "never"],
+    "eqeqeq": 0,
+    "max-len": [2, { "code": 220 }]
+  },
+  "globals": {
+    "_": true,
+    "logger": true,
+    "moment": true,
+    "axios": true
+  }
+}
